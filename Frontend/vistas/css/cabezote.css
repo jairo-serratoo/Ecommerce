@@ -1,0 +1,103 @@
+/*Esta es la hoja de estilo solamente para el area del cabezote*/
+
+/*=============================================
+TOP
+=============================================*/
+
+#top ul{ /*esto le dara estilo al id=top a todo lo que este dentro del ul que contiene, es decir, las redes sociales en este caso*/
+	padding-top: 8px; /*el padding top es para darle un margen superior, en este caso de 8 pixeles*/
+}
+
+#top ul li{ /*este le dara estilo a los li que se encuentren dentro del ul del top, en este caso cada una de las redes sociales*/
+	display: inline; /*Este atributo indica que los li(redes sociales) se muestren en linea*/
+	line-height: 30px; /*le da una alineacion de 30px vertical, es decir ajusta el texto (lo baja o lo sube)*/
+	margin: 0px 5px; /*Este indica la separacion de cada li(cada icono de red social) 0px vertical, 5 horizontal*/
+	color: white; /*color del texto en blanco, en este caso el pie*/
+}
+
+.social ul li a i{ /*esta le da formato a los iconos de las redes sociales (las etiquetas i), toma el ultimo nivel*/
+	font-size: 18px; /*esta especifica el tamaño de la letra(por ejemplo la f del icono de facebook)*/
+	margin: 0 1px; /*esta le da margen, 0 vertical y 1 horizontal*/
+}
+
+.registro ul{ /*le da estilo al ul contenido en la clase registro*/
+	text-align: right; /*alineacion del texto*/
+	font-size: 12px; /*tamaño de la letra*/
+}
+
+/*Se utiliza (.) cuando es una clase y se utiliza (#) cuando es un id y cuando esta solo es porque se ha llamado a una etiqueta*/
+
+/*=============================================
+HEADER
+=============================================*/
+
+/*LOGOTIPO*/
+header #logotipo img{
+	padding: 20px 60px;
+	padding-left: 0px;
+}
+
+/*BOTON DE CATEGORIAS*/
+header #btnCategorias{ /*se manda a llamar de la etiqueta header el boton de categorias (id=btnCategorias)*/
+	margin: 20px 0px; /*le da un margen al boton de categorias de 20px vertical*/
+}
+
+header #btnCategorias p{
+	line-height: 40px; /*le da una alineacion de 40px vertical, es decir ajusta el texto (lo baja o lo sube)*/
+	margin-bottom: 0px; /*le quita el desplazamiento al boton ocasionado por lo que baja o sube el texto*/
+}
+
+header #btnCategorias p span{ /*mandamos a llamar la etiqueta span contenida en el btnCategorias*/
+	cursor: pointer; /*indicamos que el usuario le puede dar click a ese icono*/
+}
+
+/*BUSCADOR*/
+header #buscador{ /*llamamos al id buscador de la etiqueta header*/
+	margin: 20px 0px;
+}
+
+header #buscador input{ /*se manda a llamar al input que esta dentro del id buscador*/
+	padding: 19px;
+	border-radius: 0; /*esto le quita el redondeo de las esquinas, es decir, se vera cuadrado*/
+}
+
+header #buscador button{ /*se manda a llamar al button que esta dentro del buscador*/
+	padding: 9px; /*se le asigna un tamaño de 9px verticales al boton (la lupa)*/
+	border: 1px solid silver; /*Se le asigna un borde al boton de un pixel de color gris solido*/
+	border-radius: 0px; /*se le quitan las esquinas redondeadas*/
+}
+
+/*CARRITO DE COMPRAS*/
+header #carrito{ /*se manda a llamar al id carrito que esta contenido en el header*/
+	margin: 20px 0px;
+}
+header #carrito button{ /*se manda a llamar la etiqueta button contenida en el id carrito (icono del carrito)*/
+	padding: 9px 15px;
+	border: 1px solid silver;
+	border-radius: 0px;
+}
+
+header #carrito p{ /*se manda a llamar al parrafo que esta dentro del id carrito*/
+	padding: 2px;
+	padding-left: 60px;
+	border: 1px solid #aaa;
+	font-size: 12px;
+}
+
+/*CATEGORIAS*/
+header #categorias{ /*se manda a llamar al id categorias que esta dentro del header*/
+	display: block; /*oculta las categorias, se habilita con javascript*/
+	margin-top: -10px; /*sube el cuadro de las categorias 10 pixeles*/
+	position: relative;
+}
+
+header #categorias h4{ /*se manda a llamar los h4 que estan en las categorias, es decir los titulos de las categorias*/
+	margin-top: 20px; /*se bajan y se ajustan las categorias*/
+	margin-bottom: -10px; /*se sube el margen inferior*/
+}
+
+header #categorias hr{ /*se mandan a llmar las lineas que dividen las categorias de las subcategorias*/
+	border: 1px solid rgba(255, 255, 255, .3); 
+}
+
+

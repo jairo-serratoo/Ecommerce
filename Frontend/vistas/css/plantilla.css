@@ -1,0 +1,143 @@
+/*Esta hoja de estilo se le aplicara a toda la plantilla, se comandara por clases para darle estilo a cada seccion
+asi mismo, se podra cambiar el estilo de una forma sencilla a cada parte cuando se desee*/
+
+/*FORMATO GLOBAL*/
+
+*{ /*Esta es la clase principal de estilo que se aplicara a toda la plantilla*/
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif; /*Se invoca a la familia de fuentes de google, se añade el link en la plantilla*/
+}
+
+ul, ol{ /*Formatear todos los listados que traiga bootstrap*/
+	padding: 0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{ /*estilo a todos los vinculos(en sus estados)*/
+	list-style: none;
+	text-decoration: none;
+}
+
+.barraSuperior{ /*Se trabaja la clase de la barraSuperior de forma dinamica*/
+	background: black;
+}
+
+.barraSuperior a{ /*Se puede cambiar dinamicamente por tipo de clase por ejemplo solo links*/
+	background:black;
+}
+
+.backColor, .backColor a{
+	background: #47bac1;
+	color: white;
+}
+
+/*REDES SOCIALES*/
+
+.redSocial{ /*Darle formato a los iconos de redes sociales*/
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*FACEBOOK*/
+
+.facebookBlanco{ /*Indico en la clase facebookBlanco que el texto sea blanco*/
+	color: white;
+}
+
+.facebookNegro{ /*estas clases cambian el color de la letra f de facebook*/
+	color: black;
+}
+
+.facebookColor{ /*se pueden crear clase para dinamicamente cambiar los aspectos desde la etiqueta en el cabezote*/
+	color: white; /*Este atributo color comanda el color del texto*/
+	background: #46639f; /*este atributo background comanda el color de fondo del icono*/
+}
+
+/*YOUTUBE*/
+
+.youtubeBlanco{
+	color: white;
+}
+
+.youtubeNegro{
+	color: black;
+}
+
+.youtubeColor{
+	color: white;
+	background: #ED1B1A;
+}
+
+/*TWITTER*/
+
+.twitterBlanco{
+	color: white;
+}
+
+.twitterNegro{
+	color: black;
+}
+
+.twitterColor{
+	color: white;
+	background: #0ab2e6;
+}
+
+/*GOOGLE PLUS*/
+
+.googleBlanco{
+	color: white;
+}
+
+.googleNegro{
+	color: black;
+}
+
+.googleColor{
+	color: white;
+	background: #d71617;
+}
+
+/*INSTAGRAM*/
+
+.instagramBlanco{
+	color: white;
+}
+
+.instagramNegro{
+	color: black;
+}
+
+.instagramColor{
+	color: white;
+	background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2); /*degradado para asemejar el color del logo instagram*/
+}
+
+
+/*=============================================
+PUNTOS DE QUIEBRE PARA AJUSTAR RESOLUCION BOOTSTRAP
+=============================================*/
+
+/*Escritorio grande 1366px en adelante (LG)*/
+@media(min-width:1200px){
+
+}
+
+/*Escritorio mediano o tablet horizontal 1024px (MD)*/
+@media(max-width:1199px) and (min-width:992px){
+
+}
+
+/*Escritorio pequeño o tablet vertical 768px (SM)*/
+@media(max-width:991px) and (min-width:768px){
+	
+}
+
+/*Escritorio pequeño o tablet vertical 320px (XS)*/
+@media(max-width:767px){
+	
+}
