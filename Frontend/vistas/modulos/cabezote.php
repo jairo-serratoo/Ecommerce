@@ -95,9 +95,9 @@
                     </button>
                 </a>
                 <p>TU CESTA
-                    <span class="cantidadCesta"></span>
+                    <span class="cantidadCesta">3</span>
                     <br> USD $
-                    <span class="sumaCesta"></span> 
+                    <span class="sumaCesta">50</span> 
                 </p>
             </div>
         </div>
