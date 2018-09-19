@@ -124,20 +124,28 @@ PUNTOS DE QUIEBRE PARA AJUSTAR RESOLUCION BOOTSTRAP
 
 /*Escritorio grande 1366px en adelante (LG)*/
 @media(min-width:1200px){
-
+	.col-lg-0{ /*Clases que se utilizaran para esconder las cajas de bootstrap, es para hacer responsivo el diseño*/
+		display: none;
+	}
 }
 
 /*Escritorio mediano o tablet horizontal 1024px (MD)*/
 @media(max-width:1199px) and (min-width:992px){
-
+	.col-md-0{
+		display: none;
+	}
 }
 
 /*Escritorio pequeño o tablet vertical 768px (SM)*/
 @media(max-width:991px) and (min-width:768px){
-	
+	.col-sm-0{
+		display: none;
+	}
 }
 
 /*Escritorio pequeño o tablet vertical 320px (XS)*/
 @media(max-width:767px){
-	
+	.col-xs-0{
+		display: none;
+	}
 }
