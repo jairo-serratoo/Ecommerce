@@ -11,4 +11,4 @@ $("#btnCategorias").click(function(){
 		$("#cabezote").after($("#categorias").slideToggle("fast")) //Se indica que aparezca la caja del cabezote con un slideToggle de forma rapida debajo del cabezote
 	}
 	
-})    
+})
