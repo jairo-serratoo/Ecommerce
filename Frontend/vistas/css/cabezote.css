@@ -86,7 +86,7 @@ header #carrito p{ /*se manda a llamar al parrafo que esta dentro del id carrito
 
 /*CATEGORIAS*/
 header #categorias{ /*se manda a llamar al id categorias que esta dentro del header*/
-	display: block; /*oculta las categorias, se habilita con javascript*/
+	display: none; /*oculta las categorias, se habilita con javascript*/
 	margin-top: -10px; /*sube el cuadro de las categorias 10 pixeles*/
 	position: relative;
 }
@@ -124,6 +124,10 @@ PUNTOS DE QUIEBRE PARA AJUSTAR RESOLUCION BOOTSTRAP
 		padding: 25px 60px;
 		padding-left: 0px;
 	}
+
+	header #carrito{
+		padding-left: 70px;
+	}
 }
 
 /*Escritorio pequeño o tablet vertical 768px (SM)*/
@@ -132,13 +136,43 @@ PUNTOS DE QUIEBRE PARA AJUSTAR RESOLUCION BOOTSTRAP
 	header #logotipo img{
 		padding: 30px 0px;
 	}
+
+	header #carrito{
+		padding-left: 55px;
+	}
+
+	header #carrito p{
+		display: none;
+	}
 }
 
 /*Escritorio pequeño o tablet vertical 320px (XS)*/
 @media(max-width:767px){
+	/*TOP*/
+
+	#top ul{ /*centramos el texto del top, todo lo que esta en las ul*/
+		text-align: center;
+	}
+
+	#top .registro{
+		border-top: 1px solid #222;
+	}
+
 	/*Header*/
 	header #logotipo img{
 		padding: 30px;
 		padding-bottom: 10px;
+	}
+
+	header #categorias{
+		margin-bottom: 10px;
+	}
+
+	header #buscador{
+		margin-bottom: 10px;
+	}
+
+	header #carrito{
+		margin: 0px;
 	}
 }

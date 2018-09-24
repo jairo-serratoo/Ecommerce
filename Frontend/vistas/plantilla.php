@@ -22,8 +22,8 @@
 	<link rel="stylesheet" href="vistas/css/cabezote.css"> <!--linkeamos la hoja de estilo del cabezote-->
 
 	<script src="main.js"></script>
-	<script src="vistas/js/plugins/jquery.min.js"></script>
-	<script src="vistas/js/plugins/bootstrap.min.js"></script>	
+	<script src="vistas/js/plugins/jquery.min.js"></script> <!--añadimos jquery al proyecto-->
+	<script src="vistas/js/plugins/bootstrap.min.js"></script>	<!--añadimos bootstrap al proyecto-->
 
 </head>
 <body>
@@ -31,5 +31,8 @@
 		//Cabezote
 		include "modulos/cabezote.php";
 	?>
+
+	<script src="vistas/js/cabezote.js"></script>
+
 </body>
 </html>
